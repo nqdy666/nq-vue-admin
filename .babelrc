@@ -1,0 +1,32 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        "env",
+        "stage-0"
+      ],
+      "plugins": [
+        "add-module-exports",
+        "syntax-async-functions",
+        "transform-regenerator",
+        "dynamic-import-webpack",
+        "transform-vue-jsx"
+      ],
+      "comments": false
+    },
+    "production": {
+      "presets": [
+        "env",
+        "stage-0"
+      ],
+      "plugins": [
+        "add-module-exports",
+        "syntax-async-functions",
+        "transform-regenerator",
+        "dynamic-import-webpack",
+        "transform-vue-jsx"
+      ],
+      "comments": false
+    }
+  }
+}

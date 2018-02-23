@@ -1,0 +1,64 @@
+@import "iconfont";
+@import "bulma";
+@import "layer/layer";
+@import "progress";
+@import "daterangepicker";
+@import "wangeditor/dist/css/wangEditor.css";
+
+html, body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+/*@import "animate.min";*/
+
+[v-cloak] {
+  display: none;
+}
+
+.slide-transition {
+  transition: all .5s ease;
+}
+.slide-enter,
+.slide-leave {
+  opacity: 0;
+  transform: translate3d(0, -1rem, 0);
+}
+
+.slide-up-transition {
+  transition: all .5s ease;
+}
+.slide-up-enter,
+.slide-up-leave {
+  opacity: 0;
+  transform: translate3d(0, 1rem, 0);
+}
+
+.fade-transition {
+  transition: all .5s ease;
+}
+.fade-enter,
+.fade-leave {
+  opacity: 0;
+}
+
+.hide {
+  display: none !important;
+}
+.hidden {
+  visibility: hidden !important;
+}
+.modal-card {
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.nav-item img {
+  max-height: 40px;
+  border-radius: 50%;
+}

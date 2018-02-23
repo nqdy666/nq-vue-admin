@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "extends": [
+    "plato"
+  ],
+  "plugins": [
+    "html"
+  ],
+  "globals": {
+    "__DEV__": false,
+    "$": false,
+    "System": false
+  },
+  "rules": {
+    "object-curly-spacing": 0,
+    "no-useless-escape": 0,
+    "no-multi-spaces": 0,
+    "indent": 0
+  }
+}
