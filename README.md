@@ -1,7 +1,7 @@
 ## 基于VUE的后台引擎
 
 ### 预览
-![overview.gif](docs/images/overview.gif)
+![overview.gif](https://nzijkk7pu.qnssl.com/FgE8XZC-ZrQyi_JngQtDtxninMN0)
 
 ### 特性
 * 基于Vue2.0
