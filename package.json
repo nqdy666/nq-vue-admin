@@ -1,7 +1,7 @@
 {
   "name": "nq-vue-admin",
   "version": "2.0.0",
-  "description": "a Boilerplate for mobile SPAs use vue, vuex, vue-router",
+  "description": "Vue 2.0 admin management system",
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
