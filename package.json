@@ -6,16 +6,13 @@
   "main": "src/index.js",
   "scripts": {
     "start": "serve ./dist",
-    "dev": "cross-env NODE_ENV=development DEBUG=plato* webpack-dev-server --progress",
+    "dev": "cross-env NODE_ENV=development DEBUG=nvadmin* webpack-dev-server --progress",
     "lint": "eslint --max-warnings 10 .",
     "lint:fix": "npm run lint -- --fix",
     "lint:css": "stylelint src/**/*.css",
-    "test": "echo 'test'",
     "clean": "node ./cli/clean",
-    "compile": "cross-env NODE_ENV=production DEBUG=plato* node ./cli/compile",
-    "build": "npm run clean && npm run compile",
-    "docs": "bash ./cli/docs.sh",
-    "push": "bash ./cli/push.sh"
+    "compile": "cross-env NODE_ENV=production DEBUG=nvadmin* node ./cli/compile",
+    "build": "npm run clean && npm run compile"
   },
   "dependencies": {
     "bootstrap-daterangepicker": "^2.1.25",
