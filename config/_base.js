@@ -19,7 +19,7 @@ const config = {
   path_base: resolve(__dirname, '../'),
   dir_src: 'src',
   // dir_dist: 'dist',
-  dir_dist: 'dist',
+  dir_dist: 'docs',
   dir_test: 'test',
 
   // ----------------------------------
