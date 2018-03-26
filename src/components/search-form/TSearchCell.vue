@@ -36,7 +36,6 @@
     margin-bottom: 10px !important;
     display: block !important;
     float: left;
-    overflow: hidden;
 
     .t-label {
       float: left;
