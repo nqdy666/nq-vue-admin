@@ -136,7 +136,7 @@ const webpackConfig = {
       },
       {
         test: /@[1-3]x\S*\.(png|jpg|gif)(\?.*)?$/,
-        loader: 'file-loader',
+        loader: 'url-loader',
         options: {
           name: '[name].[ext]?[hash:7]'
         }
