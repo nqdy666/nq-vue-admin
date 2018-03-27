@@ -2,6 +2,7 @@
   <div class="login-content">
     <div class="lc-block" id="l-login">
       <h3 class="title">管理系统</h3>
+
       <div class="field">
         <p class="control has-icons-left">
           <input type="text" placeholder="请输入用户名" class="input" v-model="username" autocomplete="off" />
@@ -18,6 +19,7 @@
           </span>
         </p>
       </div>
+      <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
       <button class="button is-danger self-btn" @click.prevent="login">
         <i class="fa fa-youjiantou"></i>
       </button>
