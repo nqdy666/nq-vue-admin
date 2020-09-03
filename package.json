@@ -97,7 +97,7 @@
     "postcss-url": "^7.3.0",
     "rimraf": "^2.5.4",
     "selenium-server": "^2.53.1",
-    "serve": "^2.0.0",
+    "serve": "^10.1.2",
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0",
     "style-loader": "^0.13.1",
